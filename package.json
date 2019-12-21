@@ -1,9 +1,13 @@
 {
   "name": "fuzzy_description_task",
+  "scripts": {
+    "tooltest": "mocha test/tools_test.js"
+  },
   "version": "1.0.0",
   "description": "One more algoritmical task and set of tests.",
   "main": "index.js",
   "repository": "https://github.com/lbvf50mobile/fuzzy_description_task",
   "author": "Dmitry <lbvf50.mobile@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
