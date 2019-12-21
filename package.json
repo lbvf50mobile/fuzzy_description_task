@@ -1,7 +1,8 @@
 {
   "name": "fuzzy_description_task",
   "scripts": {
-    "tooltest": "mocha test/tools_test.js"
+    "tooltest": "mocha test/tools_test.js",
+    "test": "jest"
   },
   "version": "1.0.0",
   "description": "One more algoritmical task and set of tests.",
