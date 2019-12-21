@@ -9,5 +9,8 @@
   "repository": "https://github.com/lbvf50mobile/fuzzy_description_task",
   "author": "Dmitry <lbvf50.mobile@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15"
+  }
 }
