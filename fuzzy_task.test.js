@@ -23,11 +23,11 @@ test("Static test 01 ",()=>{
     expect(fuzzy_task(array,n)).toBe(2);
 });
 
-test("Solve fuzzy task test 01 ",()=>{
+test("Solve fuzzy task auto test ",()=>{
     var array = arrgen.arr(100,1,5);
     var n = 7;
-    var current_solutions =  fuzzy_task(array,n)
-    var test_solutions = solution.run(array,n)
+    var current_solutions =  fuzzy_task(_.cloneDeep(array),n)
+    var test_solutions = solution.run(_.cloneDeep(array),n)
     expect(current_solutions == test_solutions).toBe(true);
 });
 
