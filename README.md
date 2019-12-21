@@ -27,3 +27,9 @@ rows | description
 ## More clear descripton.
 
 We have an one dimentional array of strings and integer `n`. Need to split this array 2 dimentional, that each element of new array will be array of string. Each sub array have equal amount of elements, and sum of all characters of this elements is les or equa to `n`.
+
+### How to solve a problem.
+
+- `yarn install`
+- `yarn run test`
+- **Edit** fuzzy_task.test.js
